@@ -1,0 +1,122 @@
+<html>
+    <title> Nature's Cafe </title>
+    <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
+    <head>
+        <style>
+            body {background-color: #b9ffdc}
+            .p1 {font-family: "Lucida Bright", Georgia, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+            .h1 {font-family: "Lucida Bright", Georgia, serif; color: #d09b89;}
+            .h4 {font-family: "Lucida Bright", Georgia, serif; color: #966b57;}
+            .Logoimg {display: block; margin-left: auto; margin-right: auto;}
+            .menuBGColor {background-color: #e1ffd8;}
+            .alink {color: #9effdb; background-color: transparent;text-decoration: none;}
+            .btn-group .topButton {background-color: #966b57;
+                border: none;
+                color: #9effdb;
+                padding: 2px 40px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 15px;
+                cursor: pointer;}    
+            .btn-group .topButton:hover {
+                background-color: #d09b89;
+            }
+            .center{
+                margin:auto;
+                width: 100%;
+            }
+            .button {
+                display: inline-block;
+                background-color: #966b57;
+                color: #e1ffd8;
+                padding: 10px 15px;
+                text-decoration: none;
+                border-radius: 5px;
+                border: none;
+                font-size: 14px;
+                cursor: pointer;
+                }
+              .button:hover {
+                  background-color: #d09b89;
+                    }
+  
+            #img1 {clip-path: circle(50%);}
+        </style>
+    </head>
+<body style="margin: auto;">
+    <div>
+        <div class="menuBGColor">
+            <a href="WebmasterTSA.html"><img class="Logoimg" src="LOGOwebmaster.png" alt="Logo" width="260" height="70"></a>
+        </div>
+        <div class="btn-group" >
+            <button class="topButton" onclick="document.location='menu.html'"><p class="p1">Menu</p></button>
+            <button class="topButton" onclick="document.location='Carryout.html'"><p class="p1">Carryout</p></button>
+            <button class="topButton"onclick="document.location='ContactUs.html'"><p class="p1">Contact</p></button>
+            <button class="topButton"onclick="document.location='reservation.html'"><p class="p1">Reservations</p></button>
+            <button class="topButton"onclick="document.location='FarmToTable.html'"><p class="p1">Farm-To-Table</p></button>
+            <button class="topButton"onclick="document.location='AboutUs.html'"><p class="p1">About Us</p></button>
+            <button class="topButton"onclick="document.location='reference.html'"><p class="p1">Reference</p></button>
+        </div>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <title>Reservation Form</title>
+
+</head>
+
+<body>
+    <section id="overlay">
+        <form>
+            <h1>We will need some information about you!</h1>
+            <section class="firstname">
+                <label for="firstname">What is your first name?</label>
+                <input type="text" name="firstname" id="firstname" />
+            </section>
+            <hr />
+            <section class="lastname">
+                <label for="lastname">What is your last name?</label>
+                <input type="text" name="lastname" id="lastname" />
+            </section>
+            <hr />
+            <section class="phonenum">
+              <label for="phonenum">What is your phone number?</label>
+              <input type="text" name="phonenum" id="phonenum" />
+          </section>
+          <hr />
+          <section class="emailid">
+            <label for="emailid">What is your email address?</label>
+            <input type="text" name="emailid" id="emailid" />
+        </section>
+        <hr />
+            <h1>Where will you reserving your table(s)?</h1>
+            <section class="locationorder">
+                <label for="locationorder">Type in the address of the store you will be picking up your order.</label>
+                <br>
+                <textarea id = "locationorder" name = "locationorder" rows = "10" cols = "60"> </textarea>
+            </section>
+            <section class="tablenum">
+                <label for="tablenum">How many table(s) do you want?</label>
+                <select id = "tablenum" name = "tablenum">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                  </select>
+            </section>
+            <hr />
+            <section class="submission">
+                <a href="reservationsubmission.html" class = "button">Submit</a>
+                </section>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+        </form>
+    </body>
+    </section>
+    </html>

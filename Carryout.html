@@ -1,0 +1,285 @@
+<html lang="en" dir="ltr">
+        <html>
+                <title> Nature's Cafe </title>
+                <link rel="icon" type="image/x-icon" href="iconWebmaster.ico">
+                <head>
+                    <style>
+                        .button {
+                                 display: inline-block;
+                                background-color: #966b57;
+                                color: #e1ffd8;
+                                padding: 10px 15px;
+                                text-decoration: none;
+                                border-radius: 5px;
+                                border: none;
+                                font-size: 14px;
+                                cursor: pointer;
+                                }
+                                .button:hover {
+                                background-color: #d09b89;
+                                }
+  
+  
+                        body {background-color: #b9ffdc}
+                        .p1 {font-family: "Lucida Bright", Georgia, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+                        .h1 {font-family: "Lucida Bright", Georgia, serif; color: #d09b89;}
+                        .h4 {font-family: "Lucida Bright", Georgia, serif; color: #966b57;}
+                        .Logoimg {display: block; margin-left: auto; margin-right: auto;}
+                        .menuBGColor {background-color: #e1ffd8;}
+                        .alink {color: #9effdb; background-color: transparent;text-decoration: none;}
+                        .btn-group .topButton {background-color: #966b57;
+                            border: none;
+                            color: #9effdb;
+                            padding: 2px 40px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-size: 15px;
+                            cursor: pointer;}    
+                        .btn-group .topButton:hover {
+                            background-color: #d09b89;
+                        }
+                        .center{
+                            margin:auto;
+                            width: 100%;
+                        }
+                        #img1 {clip-path: circle(50%);}
+                    </style>
+                </head>
+            <body style="margin: auto;">
+                <div>
+                    <div class="menuBGColor">
+                        <a href="WebmasterTSA.html"><img class="Logoimg" src="LOGOwebmaster.png" alt="Logo" width="260" height="70"></a>
+                    </div>
+                    <div class="btn-group" >
+                        <button class="topButton" onclick="document.location='menu.html'"><p class="p1">Menu</p></button>
+                        <button class="topButton" onclick="document.location='Carryout.html'"><p class="p1">Carryout</p></button>
+                        <button class="topButton"onclick="document.location='ContactUs.html'"><p class="p1">Contact</p></button>
+                        <button class="topButton"onclick="document.location='reservation.html'"><p class="p1">Reservations</p></button>
+                        <button class="topButton"onclick="document.location='FarmToTable.html'"><p class="p1">Farm-To-Table</p></button>
+                        <button class="topButton"onclick="document.location='AboutUs.html'"><p class="p1">About Us</p></button>
+                        <button class="topButton"onclick="document.location='reference.html'"><p class="p1">Reference</p></button>
+                    </div>            
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <title>Carryout Form</title>
+
+</head>
+
+<body>
+    <section id="overlay">
+        <form>
+            <h1>Welcome to Nature's Cafe! Thank you for choosing us!</h1>
+            <h1>We will need some information about you!</h1>
+            <section class="firstname">
+                <label for="firstname">What is your first name?</label>
+                <input type="text" name="firstname" id="firstname" />
+            </section>
+            <hr />
+            <section class="lastname">
+                <label for="lastname">What is your last name?</label>
+                <input type="text" name="lastname" id="lastname" />
+            </section>
+            <hr />
+            <section class="phonenum">
+              <label for="phonenum">What is your phone number?</label>
+              <input type="text" name="phonenum" id="phonenum" />
+          </section>
+          <hr />
+          <section class="emailid">
+            <label for="emailid">What is your email address?</label>
+            <input type="text" name="emailid" id="emailid" />
+        </section>
+        <hr />
+            <h1>Where will you picking up your order?</h1>
+            <section class="locationorder">
+                <label for="locationorder">Type in the address of the store you will be picking up your order.</label>
+                <br>
+                <textarea id = "locationorder" name = "locationorder" rows = "10" cols = "60"> </textarea>
+                
+              </section>
+            <h1>Lets Order!</h1>
+            <h6> </h6>
+            <h1>What appetizers would you like?</h1>
+            <section class="appetizers">
+                <table>
+                    <tbody>
+                     <tr>
+                       <td><input type="checkbox" name="appetizer" id="loadedpotatowedges" value="loadedpotatowedges" />
+                               <label for="loadedpotatowedges">Loaded Potato Wedges</label></td>
+                       <td><input type="checkbox" name="appetizer" id="springrolls" value="springrolls" />
+                               <label for="springrolls">Spring Rolls</label></td>
+                       <td><input type="checkbox" name="appetizer" id="garlicbread" value="garlicbread" />
+                               <label for="garlicbread">Garlic Bread</label></td>
+                       <td><input type="checkbox" name="appetizer" id="cheesesticks" value="sheesesticks" />
+                               <label for="cheesesticks">Cheese Sticks</label></td>
+                     </tr>
+                     <tr>
+                       <td><img src= "https://www.pamperedchef.ca/iceberg/com/recipe/1821687-lg.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://www.cubesnjuliennes.com/wp-content/uploads/2021/01/Spring-Roll-Recipe-500x500.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://www.allrecipes.com/thmb/sueXmRXgK-S27uRzTrJuGb-_Smc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/216077-garlic-bread-spread-step-beauty-4x3-BP-3169-ef03a4a12d8c46e196055555be5b8d79.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://natashaskitchen.com/wp-content/uploads/2023/05/Cheese-Sticks-SQ.jpg" width = "200" height="200" /></td>
+                     </tr>
+                     <tr>
+                       <td>Potatoes cut into 8 edges per potato and baked until golden brown. Garnished with sour cream, nacho cheese and spring onion.</td>
+                       <td>Thin wheat sheets filled with soy, sesame, milk, peanut, gluten, carrot, peas, zucchini, cabbage wrapped and baked.</td>
+                       <td>Thick pieces of bread garnished with garlic butter</td>
+                       <td>Cheese covered with wheat and bread crumbs and fried in soybean oil.</td>
+                     </tr>
+                     </tbody>
+                   </table>
+
+            </section>
+            <h1>What salad would you like?</h1>
+            <section class="salads">
+                <table>
+                    <tbody>
+                     <tr>
+                       <td><input type="checkbox" name="salads" id="tofusalad" value="tofusalad" />
+                               <label for="tofusalad">Tofu Salad</label></td>
+                       <td><input type="checkbox" name="salads" id="chickpeasalad" value="chickpeasalad" />
+                               <label for="chickpeasalad">Chickpea Salad</label></td>
+                       <td><input type="checkbox" name="salads" id="greensalad" value="greensalad" />
+                               <label for="greensalad">Green Salad</label></td>
+                     </tr>
+                     <tr>
+                       <td><img src= "https://www.allrecipes.com/thmb/w1oa3yx5xJgRq9nIzA6T3nO1nxI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8229092-efac8c353602472e81edbc8457c17a0d.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://www.themediterraneandish.com/wp-content/uploads/2023/12/TMD-Chickpea-Salad-Leads-01-Angle-Horizontal-500x500.jpg" width = "200" height="200" /></td>
+                       <td><img src= "greenSalad.jpg" width = "200" height="200" /></td>
+                     </tr>
+                     <tr>
+                       <td>Lettuce, spinach, carrot and tofu cubes with onions mixed and garnished with cheese </td>
+                       <td>Lettuce, chickpeas, tomatoes, broccoli and onions mixed together and garnished with sesame seeds.</td>
+                       <td>Lettuce, cabbage, spinach, romaine, tomatoes and jalapenoes mixed together and garnished with cheese</td>
+                     </tr>
+                     </tbody>
+                   </table>
+
+            </section>
+            <h1>What wrap would you like?</h1>
+            <section class="wraps">
+                <table>
+                    <tbody>
+                     <tr>
+                       <td><input type="checkbox" name="wraps" id="paneerwrap" value="paneerwrap" />
+                               <label for="paneerwrap">Paneer Wrap</label></td>
+                       <td><input type="checkbox" name="wraps" id="spicywrap" value="spicywrap" />
+                               <label for="spicywrap">Spicy Wrap</label></td>
+                       <td><input type="checkbox" name="wraps" id="vegetablewrap" value="vegetablewrap" />
+                               <label for="vegetablewrap">Vegetable Wrap</label></td>
+                     </tr>
+                     <tr>
+                       <td><img src= "https://ministryofcurry.com/wp-content/uploads/2019/10/paneer-kathi-rolls-1-1-850x1133.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://i0.wp.com/lenasamford.com/wp-content/uploads/2021/09/P1033337.jpg?fit=1080%2C1440&ssl=1" width = "200" height="200" /></td>
+                       <td><img src= "https://eatplant-based.com/wp-content/uploads/2014/12/Veggie-Wraps-SMALL.jpg" width = "200" height="200" /></td>
+                     </tr>
+                     <tr>
+                       <td>Tortillas filled with a filling of marinated pan fried paneer (Indian cheese), vegetables and green chutney (mint spread) along with onions.</td>
+                       <td>Tortillas filled with spicy sauces and stuffed with bell peppers, rice, beans and cabbage.</td>
+                       <td>Tortillas filled with carrots, beans, corn, onions, bell peppers, and lettuce.
+                      </td>
+                     </tr>
+                     </tbody>
+                   </table>
+
+            </section>
+            <h1>What type of pasta would you like?</h1>
+            <section class="pasta">
+                <table>
+                    <tbody>
+                     <tr>
+                       <td><input type="checkbox" name="pasta" id="whitesaucepasta" value="whitesaucepasta" />
+                               <label for="whitesaucepasta">White Sauce Pasta</label></td>
+                       <td><input type="checkbox" name="pasta" id="redsaucepasta" value="redsaucepasta" />
+                               <label for="redsaucepasta">Red Sauce Pasta</label></td>
+                       <td><input type="checkbox" name="pasta" id="creamcheesepasta" value="creamcheesepasta" />
+                               <label for="creamcheesepasta">Cream Cheese Pasta</label></td>
+                     </tr>
+                     <tr>
+                       <td><img src= "https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://www.kimscravings.com/wp-content/uploads/2022/12/creamy-pasta-sauce-recipe-featured.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://www.berlyskitchen.com/wp-content/uploads/2023/05/Cream-Cheese-Pasta-Featured-Image.jpg" width = "200" height="200" /></td>
+                     </tr>
+                     <tr>
+                       <td>Boiled pasta with white sauce made by roasting red chili, plain flour, milk and butter.</td>
+                       <td>Boiled pasta with red sauce made with tomatoes, tomato paste, butter and heavy cream.</td>
+                       <td>Boiled pasta with white sauce made by roasting red chili, plain flour, milk and butter and mozzarella cheese.</td>
+                     </tr>
+                     </tbody>
+                   </table>
+                   
+            </section>
+            <h1>What type of drink would you like?</h1>
+            <section class="drink">
+                <table>
+                    <tbody>
+                     <tr>
+                       <td>Fruit Juices</td>
+                       <td>Cold Drinks</td>
+                       <td>Milkshakes</td>
+                     </tr>
+                     <tr>
+                       <td><img src= "https://img.freepik.com/premium-photo/glasses-fresh-orange-juice-white-wooden-tray-blue-background-square_255585-3150.jpg" width = "200" height="200" /></td>
+                       <td><img src= "https://grandmascatering.com/images/thumbs/0000080_assorted-canned-soft-drinks-12-oz_550.jpeg" width = "200" height="200" /></td>
+                       <td><img src= "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2020-07-how-to-make-a-milkshake-at-home%2F2020-06-08_AT-K19388" width = "200" height="200" /></td>
+                     </tr>
+                     <tr>
+                       <td>We offer freshly made mango, orange, apple, dragonfruit and watermelon juice to all. We blend the juices, strain them and mix honey for natural sweetness. </td>
+                       <td>We offer Fanta, Coco-Cola and Sprite. </td>
+                       <td>We offer oreo, strawberry and banana milkshakes. We blend the fruit/oreos with sugar and milk.</td>
+                     </tr>
+                     <tr>
+                      <td><input type="checkbox" name="drink" id="mango" value="mango" />
+                              <label for="mango">Mango Juice</label></td>
+                      <td><input type="checkbox" name="drink" id="fanta" value="fanta" />
+                              <label for="fanta">Fanta</label></td>
+                      <td><input type="checkbox" name="drink" id="oreo" value="oreo" />
+                              <label for="oreo">Oreo Milkshake</label></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="drink" id="orange" value="orange" />
+                              <label for="orange">Orange Juice</label></td>
+                      <td><input type="checkbox" name="drink" id="coco-cola" value="coco-cola" />
+                              <label for="coco-cola">Coco-Cola</label></td>
+                      <td><input type="checkbox" name="drink" id="strawberry" value="strawberry" />
+                              <label for="strawberry">Strawberry Milkshake</label></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="drink" id="apple" value="apple" />
+                              <label for="apple">Apple Juice</label></td>
+                      <td><input type="checkbox" name="drink" id="sprite" value="sprite" />
+                              <label for="sprite">Sprite</label></td>
+                      <td><input type="checkbox" name="drink" id="banana" value="banana" />
+                              <label for="banana">Banana Milkshake</label></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="drink" id="dragonfruit" value="dragonfruit" />
+                              <label for="dragonfruit">Dragonfruit Juice</label></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" name="drink" id="watermelon" value="watermelon" />
+                              <label for="watermelon">Watermelon Juice</label></td>
+                    </tr>
+                     </tbody>
+                   </table>
+                   
+            </section>
+            <hr>
+
+        <section class="submission">
+        <a href="submission.html" class = "button">Submit</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        </section>
+        </form>
+</body>
+</section>
+</html>
